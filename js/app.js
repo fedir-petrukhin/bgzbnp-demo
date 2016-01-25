@@ -529,6 +529,10 @@ angular.module('starter', ['ionic', 'ngCordova', 'ngCordova.plugins.datePicker',
         $scope.wasSent = false;
     }
 
+    $scope.windowOpen = function(url, target, options) {
+        window.open(url, target, options);
+    }
+
     $scope.init();
 })
 
