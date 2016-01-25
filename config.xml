@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.cci.tbi" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>TBI Mobile</name>
+    <name>BGZBNP Mobile</name>
     <description>
-        TBI Mobile Demo Application.
+        BGZBNP Mobile Demo Application.
     </description>
     <author email="fpe@ciklum.com" href="http://cc-interactive.com">
         Fedir Petrukhin
