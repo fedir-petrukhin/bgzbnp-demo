@@ -43,12 +43,41 @@
 <script id="page0.html" type="text/ng-template">
     <ion-view hide-back-button="true" hide-nav-bar="true">
         <ion-content class="padding">
-            <div class="card-inset" style="text-align: center">
-                <div class="button button-dark icon-left ion-home button-block" ng-click="windowOpen('http://www.bgzbnpparibas.pl', '_system', 'location=yes');">Public website</div>
-                <div class="button button-dark icon-left ion-lock-combination button-block" ng-click="windowOpen('https://planet.bgzbnpparibas.pl/hades/do/Login', '_system', 'location=yes');">Home banking</div>
-                <div class="button button-dark icon-left  ion-stats-bars button-block" ng-click="windowOpen('https://www.bgzbnpparibas.pl/english/currency-exchange-rates-table.asp?Date=10.03.2015+09%3A11', '_system', 'location=yes');">Exchange rates</div>
-                <a class="button button-dark icon-left ion-cash button-block" ui-sref="page1">1-click Loan</a>
-                <div class="button button-dark icon-left ion-bag button-block" ng-click="window.open('https://planet.bgzbnpparibas.pl/hades/do/Login', '_system', 'location=yes');">Mobile wallet</div>
+            <div class="row">
+                <div class="col">
+                    <div class="item" style="text-align: center;">
+                        <button class="button icon ion-home button-calm"  ng-click="windowOpen('http://www.bgzbnpparibas.pl', '_system', 'location=yes');"></button>
+                        <div class="button-small button-clear" style="color: #fff;">Public website</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item" style="text-align: center;">
+                        <button class="button icon ion-lock-combination button-balanced" ng-click="windowOpen('https://planet.bgzbnpparibas.pl/hades/do/Login', '_system', 'location=yes');"></button>
+                        <div class="button-small button-clear" style="color: #fff;">Home banking</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item" style="text-align: center;">
+                        <button class="button icon ion-stats-bars button-energized" ng-click="windowOpen('https://www.bgzbnpparibas.pl/english/currency-exchange-rates-table.asp?Date=10.03.2015+09%3A11', '_system', 'location=yes');"></button>
+                        <div class="button-small button-clear" style="color: #fff;">Exchange rates</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="item" style="text-align: center;">
+                        <button class="button icon ion-cash button-assertive" ui-sref="page1"></button>
+                        <div class="button-small button-clear" style="color: #fff;">1-click Loan</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item" style="text-align: center;">
+                        <button class="button icon ion-bag button-royal" ng-click="windowOpen('https://planet.bgzbnpparibas.pl/hades/do/Login', '_system', 'location=yes');"></button>
+                        <div class="button-small button-clear" style="color: #fff;">Mobile wallet</div>
+                    </div>
+                </div>
+                <div class="col">
+                </div>
             </div>
         </ion-content>
     </ion-view>
