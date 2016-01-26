@@ -104,4 +104,7 @@
 <gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
  
     <access origin="*" />
+    <access origin="tel:*" launch-external="yes" />
+    <access origin="mailto:*" launch-external="yes" />
+
 </widget>
